@@ -1,0 +1,287 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/techio
+vaes_encryptor
+!s110 1666886690
+!i10b 1
+!s100 0DWzQS0FzIGL]kRCl9Ega1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICncL<P8e1eibYJz9^d0bH3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/media/techio/Study Materials/Minor_Project_1/Encryption/sim
+w1666886530
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/aes_encryptor.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/aes_encryptor.v
+!i122 346
+L0 1 19
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1666886690.000000
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/aes_encryptor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/aes_encryptor.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vaes_encryptor_tb
+Z7 !s110 1666886692
+!i10b 1
+!s100 2UoN8f;7ObXRZ7mXJ3@;>0
+R0
+IFnVIaHf?lnYPMbzhb^o7h0
+R1
+R2
+w1666886545
+8/media/techio/Study Materials/Minor_Project_1/Encryption/tb/aes_encryptor_tb.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/tb/aes_encryptor_tb.v
+!i122 357
+L0 1 15
+R3
+r1
+!s85 0
+31
+Z8 !s108 1666886692.000000
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/tb/aes_encryptor_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/tb/aes_encryptor_tb.v|
+!i113 1
+R5
+R6
+vkey_gen
+R7
+!i10b 1
+!s100 lJYKk41SLggTlD7eQ05431
+R0
+I^l=dm6EI@j=7nBDPO;cfk0
+R1
+R2
+w1666885426
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/key_gen.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/key_gen.v
+!i122 354
+L0 1 40
+R3
+r1
+!s85 0
+31
+R8
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/key_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/key_gen.v|
+!i113 1
+R5
+R6
+vlast_round
+R7
+!i10b 1
+!s100 3Q@i^a_XD_HUAJXHDANf03
+R0
+IWi^a0Z5CK=:Dbdn4niR5S0
+R1
+R2
+w1666837154
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/last_round.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/last_round.v
+!i122 356
+L0 1 16
+R3
+r1
+!s85 0
+31
+R8
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/last_round.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/last_round.v|
+!i113 1
+R5
+R6
+vmix_column
+Z9 !s110 1666886691
+!i10b 1
+!s100 GD7<ZcfVhL:;hXX7GFINH2
+R0
+I]bb^cg`PO^P5fK<=XdgaO2
+R1
+R2
+w1666752730
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mix_column.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mix_column.v
+!i122 350
+L0 1 10
+R3
+r1
+!s85 0
+31
+Z10 !s108 1666886691.000000
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mix_column.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mix_column.v|
+!i113 1
+R5
+R6
+vmul_2
+R9
+!i10b 1
+!s100 IHCkOShQb`Bz[DYf9XfW62
+R0
+IB9F_K]6kL5^RRXGahRol?2
+R1
+R2
+w1666718235
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_2.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_2.v
+!i122 351
+L0 1 7
+R3
+r1
+!s85 0
+31
+R10
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_2.v|
+!i113 1
+R5
+R6
+vmul_3
+R9
+!i10b 1
+!s100 88IJmHNh8]?Z6KJEDT3nX2
+R0
+I6<hJ`:j:dHRM=ZQ7178Tz1
+R1
+R2
+w1666718500
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_3.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_3.v
+!i122 352
+L0 1 8
+R3
+r1
+!s85 0
+31
+R10
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_3.v|
+!i113 1
+R5
+R6
+vmul_32bit
+R7
+!i10b 1
+!s100 V2=W8`dcD45f2k6O@f7ge1
+R0
+I^C_lVmQKAz>mBA:Zc8e2d2
+R1
+R2
+w1666720780
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_32bit.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_32bit.v
+!i122 353
+L0 1 22
+R3
+r1
+!s85 0
+31
+R10
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_32bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/mul_32bit.v|
+!i113 1
+R5
+R6
+vround
+R7
+!i10b 1
+!s100 ;:S:B<S^kgmgjLPBAFg2B2
+R0
+IE3YGF6;z88Qd`ORQ4PXBc2
+R1
+R2
+w1666886684
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/round.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/round.v
+!i122 355
+L0 1 18
+R3
+r1
+!s85 0
+31
+R8
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/round.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/round.v|
+!i113 1
+R5
+R6
+vs_box
+R9
+!i10b 1
+!s100 Gh7?EgM[mjWcPHkCc[FVR3
+R0
+IE9IB?>hXcH@fHMlj<U^jG0
+R1
+R2
+w1666856263
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/s_box.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/s_box.v
+!i122 347
+L0 3 297
+R3
+r1
+!s85 0
+31
+R4
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/s_box.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/s_box.v|
+!i113 1
+R5
+R6
+vshift_rows
+R9
+!i10b 1
+!s100 F7CBDIj6lPceQdAWQ<3jd2
+R0
+IkeJba?e:lYNGmO;7Y8_6C0
+R1
+R2
+w1666700823
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/shift_rows.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/shift_rows.v
+!i122 349
+L0 1 29
+R3
+r1
+!s85 0
+31
+R10
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/shift_rows.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/shift_rows.v|
+!i113 1
+R5
+R6
+vsub_bytes
+R9
+!i10b 1
+!s100 6BeS1nDX`ni<L3ISG?:zd2
+R0
+I9O@1MgK^^Xm@S6NlLOBKY3
+R1
+R2
+w1666852221
+8/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/sub_bytes.v
+F/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/sub_bytes.v
+!i122 348
+L0 1 25
+R3
+r1
+!s85 0
+31
+R10
+!s107 /media/techio/Study Materials/Minor_Project_1/Encryption/rtl/sub_bytes.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/media/techio/Study Materials/Minor_Project_1/Encryption/rtl/sub_bytes.v|
+!i113 1
+R5
+R6
