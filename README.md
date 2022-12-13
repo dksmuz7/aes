@@ -25,3 +25,8 @@ Output generated is the original text that was fed in encryption module
 
 ### Simulation result screenshot
 <img src="output.png">
+
+### Contributors
+Deepak Sagar
+Ravi Kumar Yadav
+Saurabh Kumar
