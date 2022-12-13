@@ -1,0 +1,158 @@
+# Loading project aes_decryption
+# Compile of aes_decryptor.v was successful.
+# Compile of inv_key_gen.v was successful.
+# Compile of inv_mix_32bit.v was successful.
+# Compile of inv_mix_column.v was successful.
+# Compile of inv_s_box.v was successful.
+# Compile of inv_shift_rows.v was successful.
+# Compile of inv_sub_bytes.v was successful.
+# Compile of key_expansion.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of round.v failed with 4 errors.
+# Compile of round_zero.v was successful.
+# Compile of s_box.v was successful.
+# Compile of aes_decryptor_tb.v was successful.
+# 13 compiles, 1 failed with 4 errors.
+# Compile of aes_decryptor.v was successful.
+# Compile of inv_key_gen.v was successful.
+# Compile of inv_mix_32bit.v was successful.
+# Compile of inv_mix_column.v was successful.
+# Compile of inv_s_box.v was successful.
+# Compile of inv_shift_rows.v was successful.
+# Compile of inv_sub_bytes.v was successful.
+# Compile of key_expansion.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of round.v was successful.
+# Compile of round_zero.v was successful.
+# Compile of s_box.v was successful.
+# Compile of aes_decryptor_tb.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.aes_decryptor_tb
+# vsim work.aes_decryptor_tb 
+# Start time: 23:25:53 on Nov 01,2022
+# Loading work.aes_decryptor_tb
+# Loading work.aes_decryptor
+# Loading work.key_expansion
+# Loading work.key_gen
+# Loading work.s_box
+# Loading work.round
+# Loading work.inv_mix_column
+# Loading work.inv_mix_32bit
+# Loading work.inv_shift_rows
+# Loading work.inv_sub_bytes
+# Loading work.inv_s_box
+run -all
+# time=   0,cipher_text=bac2544cd8611a7433811b99b3510797,key_in=2b7e151628aed2a6abf7158809cf4f3c,plain_text=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# ** Note: $finish    : /media/techio/Study Materials/Minor_Project_1/Decryption/tb/aes_decryptor_tb.v(17)
+#    Time: 100 ns  Iteration: 0  Instance: /aes_decryptor_tb
+# 1
+# Break in Module aes_decryptor_tb at /media/techio/Study Materials/Minor_Project_1/Decryption/tb/aes_decryptor_tb.v line 17
+quit -sim
+# End time: 23:28:46 on Nov 01,2022, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 7
+# Error opening /media/techio/Study Materials/Minor_Project_1/Decryption/rtl/inv_key_gen.v
+# Path name '/media/techio/Study Materials/Minor_Project_1/Decryption/rtl/inv_key_gen.v' doesn't exist.
+# Compile of aes_decryptor.v was successful.
+# Compile of inv_mix_32bit.v was successful.
+# Compile of inv_mix_column.v was successful.
+# Compile of inv_s_box.v was successful.
+# Compile of inv_shift_rows.v was successful.
+# Compile of inv_sub_bytes.v was successful.
+# Compile of key_expansion.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of round.v was successful.
+# Compile of round_zero.v was successful.
+# Compile of s_box.v was successful.
+# Compile of aes_decryptor_tb.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.aes_decryptor_tb
+# vsim work.aes_decryptor_tb 
+# Start time: 23:29:28 on Nov 01,2022
+# Loading work.aes_decryptor_tb
+# Loading work.aes_decryptor
+# Loading work.key_expansion
+# Loading work.key_gen
+# Loading work.s_box
+# Loading work.round
+# Loading work.inv_mix_column
+# Loading work.inv_mix_32bit
+# Loading work.inv_shift_rows
+# Loading work.inv_sub_bytes
+# Loading work.inv_s_box
+restart
+run -all
+# time=   0,cipher_text=bac2544cd8611a7433811b99b3510797,key_in=2b7e151628aed2a6abf7158809cf4f3c,plain_text=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# ** Note: $finish    : /media/techio/Study Materials/Minor_Project_1/Decryption/tb/aes_decryptor_tb.v(17)
+#    Time: 100 ns  Iteration: 0  Instance: /aes_decryptor_tb
+# 1
+# Break in Module aes_decryptor_tb at /media/techio/Study Materials/Minor_Project_1/Decryption/tb/aes_decryptor_tb.v line 17
+# Compile of aes_decryptor.v was successful.
+# Compile of inv_mix_32bit.v was successful.
+# Compile of inv_mix_column.v was successful.
+# Compile of inv_s_box.v was successful.
+# Compile of inv_shift_rows.v was successful.
+# Compile of inv_sub_bytes.v was successful.
+# Compile of key_expansion.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of round.v was successful.
+# Compile of round_zero.v was successful.
+# Compile of s_box.v was successful.
+# Compile of aes_decryptor_tb.v was successful.
+# 12 compiles, 0 failed with no errors.
+run -all
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.aes_decryptor_tb
+# Loading work.aes_decryptor
+# Loading work.key_expansion
+# Loading work.key_gen
+# Loading work.s_box
+# Loading work.round_zero
+# Loading work.inv_shift_rows
+# Loading work.inv_sub_bytes
+# Loading work.inv_s_box
+# Loading work.round
+# Loading work.inv_mix_column
+# Loading work.inv_mix_32bit
+run -all
+# time=   0,cipher_text=bac2544cd8611a7433811b99b3510797,key_in=2b7e151628aed2a6abf7158809cf4f3c,plain_text=5940ffde6d80b192e59d4722e7283338
+# ** Note: $finish    : /media/techio/Study Materials/Minor_Project_1/Decryption/tb/aes_decryptor_tb.v(17)
+#    Time: 100 ns  Iteration: 0  Instance: /aes_decryptor_tb
+# 1
+# Break in Module aes_decryptor_tb at /media/techio/Study Materials/Minor_Project_1/Decryption/tb/aes_decryptor_tb.v line 17
+# Compile of aes_decryptor.v was successful.
+# Compile of inv_mix_32bit.v was successful.
+# Compile of inv_mix_column.v was successful.
+# Compile of inv_s_box.v was successful.
+# Compile of inv_shift_rows.v was successful.
+# Compile of inv_sub_bytes.v was successful.
+# Compile of key_expansion.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of round.v was successful.
+# Compile of round_zero.v was successful.
+# Compile of s_box.v was successful.
+# Compile of aes_decryptor_tb.v was successful.
+# 12 compiles, 0 failed with no errors.
+run -all
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.aes_decryptor_tb
+# Loading work.aes_decryptor
+# Loading work.key_expansion
+# Loading work.key_gen
+# Loading work.s_box
+# Loading work.round_zero
+# Loading work.inv_shift_rows
+# Loading work.inv_sub_bytes
+# Loading work.inv_s_box
+# Loading work.round
+# Loading work.inv_mix_column
+# Loading work.inv_mix_32bit
+run -all
+# time=   0,cipher_text=bac2544cd8611a7433811b99b3510797,key_in=2b7e151628aed2a6abf7158809cf4f3c,plain_text=5940ffde6d80b192e59d4722e7283338
+# ** Note: $finish    : /media/techio/Study Materials/Minor_Project_1/Decryption/tb/aes_decryptor_tb.v(17)
+#    Time: 100 ns  Iteration: 0  Instance: /aes_decryptor_tb
+# 1
+# Break in Module aes_decryptor_tb at /media/techio/Study Materials/Minor_Project_1/Decryption/tb/aes_decryptor_tb.v line 17
+# End time: 23:42:12 on Nov 01,2022, Elapsed time: 0:12:44
+# Errors: 0, Warnings: 2

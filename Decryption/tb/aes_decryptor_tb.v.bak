@@ -1,0 +1,19 @@
+module aes_decryptor_tb();
+    reg[127:0] cipher_text;
+    reg[127:0] key_in;
+    wire[127:0] plain_text;
+
+    aes_decryptor decrypt(cipher_text,key_in,plain_text);
+
+    // plain_text = 3243f6a8885a308d313198a2e0370734
+    // key_in = 2b7e151628aed2a6abf7158809cf4f3c
+    // cipher_text = bac2544cd8611a7433811b99b3510797
+
+    initial begin
+        cipher_text = 128'h3925841d02dc09fbdc118597196a0b32;
+        key_in = 128'h2b7e151628aed2a6abf7158809cf4f3c;
+
+        $monitor("time=%4d,cipher_text=%h,key_in=%h,plain_text=%h",$time,cipher_text,key_in,plain_text);
+        #100000 $finish;
+    end
+endmodule

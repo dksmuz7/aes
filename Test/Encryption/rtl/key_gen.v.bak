@@ -11,9 +11,9 @@ module key_gen(round,key_in,key_out);
     assign w3=key_in[31:0];
 
     s_box sbox0(w3[23:16],sij[31:24]);
-    s_box sbox1(w3[15:8],sij[23:16]);
-    s_box sbox2(w3[7:0],sij[15:8]);
-    s_box sbox3(w3[31:24],sij[7:0]);
+    s_box sbox1(w3[15:8],sij[23:16],);
+    s_box sbox2(w3[7:0],sij[15:8],);
+    s_box sbox3(w3[31:24],sij[7:0],);
 
     assign key_out[127:96] = w0 ^ sij ^ round_const(round);
     assign key_out[95:64] = w0 ^ sij ^ round_const(round) ^ w1;

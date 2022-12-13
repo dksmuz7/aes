@@ -1,10 +1,9 @@
 module aes_encryptor_tb();
     reg[127:0] key_in,plain_text;
     wire[127:0] cipher_text;
-    wire[127:0] temp_out;
 
     // Instantiating the module;
-    aes_encryptor encrypt(.data_in(plain_text),.key_in(key_in),.data_out(cipher_text),.temp_out(temp_out));
+    aes_encryptor encrypt(plain_text,key_in,cipher_text);
 
     initial begin
         plain_text = 128'h3243f6a8885a308d313198a2e0370734;

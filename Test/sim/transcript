@@ -1,0 +1,196 @@
+# Loading project test_all_modules
+# Compile of aes_decryptor.v was successful.
+# Compile of inv_mix_32bit.v was successful.
+# Compile of inv_mix_column.v was successful.
+# Compile of inv_round.v was successful.
+# Compile of inv_s_box.v was successful.
+# Compile of inv_shift_rows.v was successful.
+# Compile of inv_sub_bytes.v was successful.
+# Compile of key_expansion.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of round_zero.v was successful.
+# Compile of s_box.v was successful.
+# Compile of aes_encryptor.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of last_round.v was successful.
+# Compile of mix_column.v was successful.
+# Compile of mul_2.v was successful.
+# Compile of mul_3.v was successful.
+# Compile of mul_32bit.v was successful.
+# Compile of round.v was successful.
+# Compile of s_box.v was successful.
+# Compile of shift_rows.v was successful.
+# Compile of sub_bytes.v was successful.
+# Compile of test_all_modules.v was successful.
+# Compile of test_all_modules_tb.v was successful.
+# 24 compiles, 0 failed with no errors.
+vsim work.test_all_modules_tb
+# vsim work.test_all_modules_tb 
+# Start time: 01:13:32 on Dec 12,2022
+# Loading work.test_all_modules_tb
+# Loading work.test_all_modules
+# Loading work.aes_encryptor
+# Loading work.round
+# Loading work.key_gen
+# Loading work.s_box
+# Loading work.sub_bytes
+# Loading work.shift_rows
+# Loading work.mix_column
+# Loading work.mul_32bit
+# Loading work.last_round
+# Loading work.aes_decryptor
+# Loading work.key_expansion
+# Loading work.round_zero
+# Loading work.inv_shift_rows
+# Loading work.inv_sub_bytes
+# Loading work.inv_s_box
+# Loading work.inv_round
+# Loading work.inv_mix_column
+# Loading work.inv_mix_32bit
+add wave -position insertpoint  \
+sim:/test_all_modules_tb/key_in \
+sim:/test_all_modules_tb/plain_text \
+sim:/test_all_modules_tb/encrypted_text \
+sim:/test_all_modules_tb/decrypted_text
+run -all
+# time=                   0, plain_text[0]=3243f6a8885a308d313198a2e0370734, key_in[0]=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text[0]=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# time=                   0, encrypted_text[0]=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, key_in[0]=2b7e151628aed2a6abf7158809cf4f3c, decrypted_text[0]=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# time=                  10, plain_text[1]=3f9be5549940d85eb19e2f8b6055d88b, key_in[1]=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text[1]=3925841d02dc09fbdc118597196a0b32
+# time=                  10, encrypted_text[1]=3925841d02dc09fbdc118597196a0b32, key_in[1]=2b7e151628aed2a6abf7158809cf4f3c, decrypted_text[1]=3243f6a8885a308d313198a2e0370734
+# time=                  20, plain_text[2]=a9b417821e92fbc255152fd3539576ee, key_in[2]=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text[2]=de276ab4f34a2d78de6ca5597787fe5f
+# time=                  20, encrypted_text[2]=de276ab4f34a2d78de6ca5597787fe5f, key_in[2]=2b7e151628aed2a6abf7158809cf4f3c, decrypted_text[2]=3f9be5549940d85eb19e2f8b6055d88b
+# time=                  30, plain_text[3]=d4d47401f7d5b092336e54ed97307539, key_in[3]=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text[3]=818f604ee81fac7694100ced99426374
+# time=                  30, encrypted_text[3]=818f604ee81fac7694100ced99426374, key_in[3]=2b7e151628aed2a6abf7158809cf4f3c, decrypted_text[3]=a9b417821e92fbc255152fd3539576ee
+# time=                  40, plain_text[4]=5686832663d7690df44bb71c01e21be5, key_in[4]=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text[4]=c624ae6c4c7458bf48d671a8bb3b5291
+# time=                  40, encrypted_text[4]=c624ae6c4c7458bf48d671a8bb3b5291, key_in[4]=2b7e151628aed2a6abf7158809cf4f3c, decrypted_text[4]=d4d47401f7d5b092336e54ed97307539
+# Compile of test_all_modules_tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_all_modules_tb
+run -all
+# time=                   0, plain_text=5686832663d7690df44bb71c01e21be5, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=dc833222fce96b7c47d5316c5e03e567, decrypted_text=5686832663d7690df44bb71c01e21be5
+restart
+run -all
+# time=                   0, plain_text=5686832663d7690df44bb71c01e21be5, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=dc833222fce96b7c47d5316c5e03e567, decrypted_text=5686832663d7690df44bb71c01e21be5
+# Compile of aes_decryptor.v was successful.
+# Compile of inv_mix_32bit.v was successful.
+# Compile of inv_mix_column.v was successful.
+# Compile of inv_round.v was successful.
+# Compile of inv_s_box.v was successful.
+# Compile of inv_shift_rows.v was successful.
+# Compile of inv_sub_bytes.v was successful.
+# Compile of key_expansion.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of round_zero.v was successful.
+# Compile of s_box.v was successful.
+# Compile of aes_encryptor.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of last_round.v was successful.
+# Compile of mix_column.v was successful.
+# Compile of mul_2.v was successful.
+# Compile of mul_3.v was successful.
+# Compile of mul_32bit.v was successful.
+# Compile of round.v was successful.
+# Compile of s_box.v was successful.
+# Compile of shift_rows.v was successful.
+# Compile of sub_bytes.v was successful.
+# Compile of test_all_modules.v was successful.
+# Compile of test_all_modules_tb.v was successful.
+# 24 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_all_modules_tb
+# Loading work.test_all_modules
+# Loading work.aes_encryptor
+# Loading work.round
+# Loading work.key_gen
+# Loading work.s_box
+# Loading work.sub_bytes
+# Loading work.shift_rows
+# Loading work.mix_column
+# Loading work.mul_32bit
+# Loading work.last_round
+# Loading work.aes_decryptor
+# Loading work.key_expansion
+# Loading work.round_zero
+# Loading work.inv_shift_rows
+# Loading work.inv_sub_bytes
+# Loading work.inv_s_box
+# Loading work.inv_round
+# Loading work.inv_mix_column
+# Loading work.inv_mix_32bit
+run -all
+# time= 0, plain_text=5686832663d7690df44bb71c01e21be5, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=dc833222fce96b7c47d5316c5e03e567, decrypted_text=5686832663d7690df44bb71c01e21be5
+# Compile of aes_decryptor.v was successful.
+# Compile of inv_mix_32bit.v was successful.
+# Compile of inv_mix_column.v was successful.
+# Compile of inv_round.v was successful.
+# Compile of inv_s_box.v was successful.
+# Compile of inv_shift_rows.v was successful.
+# Compile of inv_sub_bytes.v was successful.
+# Compile of key_expansion.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of round_zero.v was successful.
+# Compile of s_box.v was successful.
+# Compile of aes_encryptor.v was successful.
+# Compile of key_gen.v was successful.
+# Compile of last_round.v was successful.
+# Compile of mix_column.v was successful.
+# Compile of mul_2.v was successful.
+# Compile of mul_3.v was successful.
+# Compile of mul_32bit.v was successful.
+# Compile of round.v was successful.
+# Compile of s_box.v was successful.
+# Compile of shift_rows.v was successful.
+# Compile of sub_bytes.v was successful.
+# Compile of test_all_modules.v was successful.
+# Compile of test_all_modules_tb.v was successful.
+# 24 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_all_modules_tb
+# Loading work.test_all_modules
+# Loading work.aes_encryptor
+# Loading work.round
+# Loading work.key_gen
+# Loading work.s_box
+# Loading work.sub_bytes
+# Loading work.shift_rows
+# Loading work.mix_column
+# Loading work.mul_32bit
+# Loading work.last_round
+# Loading work.aes_decryptor
+# Loading work.key_expansion
+# Loading work.round_zero
+# Loading work.inv_shift_rows
+# Loading work.inv_sub_bytes
+# Loading work.inv_s_box
+# Loading work.inv_round
+# Loading work.inv_mix_column
+# Loading work.inv_mix_32bit
+run -all
+# time=10, plain_text=3f9be5549940d85eb19e2f8b6055d88b, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=de276ab4f34a2d78de6ca5597787fe5f, decrypted_text=3f9be5549940d85eb19e2f8b6055d88b
+# time=20, plain_text=a9b417821e92fbc255152fd3539576ee, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=818f604ee81fac7694100ced99426374, decrypted_text=a9b417821e92fbc255152fd3539576ee
+# time=30, plain_text=d4d47401f7d5b092336e54ed97307539, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=c624ae6c4c7458bf48d671a8bb3b5291, decrypted_text=d4d47401f7d5b092336e54ed97307539
+# time=40, plain_text=5686832663d7690df44bb71c01e21be5, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=dc833222fce96b7c47d5316c5e03e567, decrypted_text=5686832663d7690df44bb71c01e21be5
+# time=50, plain_text=5686832663d7690df44bb71c01e21be5, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=dc833222fce96b7c47d5316c5e03e567, decrypted_text=5686832663d7690df44bb71c01e21be5
+add list  \
+sim:/test_all_modules_tb/key_in \
+sim:/test_all_modules_tb/plain_text \
+sim:/test_all_modules_tb/encrypted_text \
+sim:/test_all_modules_tb/decrypted_text
+restart
+restart
+add list  \
+sim:/test_all_modules_tb/key_in \
+sim:/test_all_modules_tb/plain_text \
+sim:/test_all_modules_tb/encrypted_text \
+sim:/test_all_modules_tb/decrypted_text
+run -all
+# time=10, plain_text=3f9be5549940d85eb19e2f8b6055d88b, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=de276ab4f34a2d78de6ca5597787fe5f, decrypted_text=3f9be5549940d85eb19e2f8b6055d88b
+# time=20, plain_text=a9b417821e92fbc255152fd3539576ee, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=818f604ee81fac7694100ced99426374, decrypted_text=a9b417821e92fbc255152fd3539576ee
+# time=30, plain_text=d4d47401f7d5b092336e54ed97307539, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=c624ae6c4c7458bf48d671a8bb3b5291, decrypted_text=d4d47401f7d5b092336e54ed97307539
+# time=40, plain_text=5686832663d7690df44bb71c01e21be5, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=dc833222fce96b7c47d5316c5e03e567, decrypted_text=5686832663d7690df44bb71c01e21be5
+# time=50, plain_text=5686832663d7690df44bb71c01e21be5, key_in=2b7e151628aed2a6abf7158809cf4f3c, encrypted_text=dc833222fce96b7c47d5316c5e03e567, decrypted_text=5686832663d7690df44bb71c01e21be5
+# End time: 01:30:15 on Dec 12,2022, Elapsed time: 0:16:43
+# Errors: 0, Warnings: 2
